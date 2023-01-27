@@ -1,19 +1,16 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/proxy/Clones.sol";
-import "./WalletProxy.sol";
+import {Account} from "./base/Account.sol";
 
 contract Factory {
-    using Clones for address;
+    address public logic;
 
-    address public walletProxy;
-
-    constructor() {
-        walletProxy = address(new WalletProxy());
+    function setLogic(address _logic) external {
+        logic = _logic;
     }
 
-    function createWallet() external payable returns (address) {
-        return walletProxy.clone();
+    function createAccount() external returns (address) {
+        return address(new Account(address(this)));
     }
 }
