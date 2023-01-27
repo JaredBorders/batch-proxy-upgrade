@@ -1,4 +1,4 @@
-# Upgradable Minimal Proxy
+# Batch Proxy Upgrade
 
 [![Github Actions][gha-badge]][gha] 
 [![Foundry][foundry-badge]][foundry] 
