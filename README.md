@@ -14,7 +14,7 @@
 ## Proof of concept upgrade pattern for upgrading multiple proxies at once
 
 <p align="center">
-  <img src="/proxy.png" width="1000" height="800" alt="ProxyDiagram"/>
+  <img src="/proxy.png" width="1000" height="600" alt="ProxyDiagram"/>
 </p>
 
 ## Contracts
