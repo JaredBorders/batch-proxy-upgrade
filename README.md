@@ -11,7 +11,11 @@
 [license]: https://opensource.org/licenses/MIT
 [license-badge]: https://img.shields.io/badge/License-MIT-blue.svg
 
-Proof of concept upgrade pattern for upgrading multiple proxies at once
+## Proof of concept upgrade pattern for upgrading multiple proxies at once
+
+<p align="center">
+  <img src="/proxy.png" width="1407" height="938" alt="ProxyDiagram"/>
+</p>
 
 ## Contracts
 
